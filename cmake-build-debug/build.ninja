@@ -1,0 +1,416 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: oop1_project_pacman_yehuda_keller
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.8
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target oop1_project_pacman_yehuda_keller
+
+
+#############################################
+# Order-only phony target for oop1_project_pacman_yehuda_keller
+
+build cmake_object_order_depends_target_oop1_project_pacman_yehuda_keller: phony || CMakeFiles/oop1_project_pacman_yehuda_keller.dir
+
+build CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/Board.cpp.o: CXX_COMPILER__oop1_project_pacman_yehuda_keller_Debug /Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/src/Board.cpp || cmake_object_order_depends_target_oop1_project_pacman_yehuda_keller
+  DEP_FILE = CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/Board.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -std=c++20
+  INCLUDES = -I/Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/oop1_project_pacman_yehuda_keller.dir
+  OBJECT_FILE_DIR = CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src
+
+build CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/Cookie.cpp.o: CXX_COMPILER__oop1_project_pacman_yehuda_keller_Debug /Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/src/Cookie.cpp || cmake_object_order_depends_target_oop1_project_pacman_yehuda_keller
+  DEP_FILE = CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/Cookie.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -std=c++20
+  INCLUDES = -I/Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/oop1_project_pacman_yehuda_keller.dir
+  OBJECT_FILE_DIR = CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src
+
+build CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/DataBoard.cpp.o: CXX_COMPILER__oop1_project_pacman_yehuda_keller_Debug /Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/src/DataBoard.cpp || cmake_object_order_depends_target_oop1_project_pacman_yehuda_keller
+  DEP_FILE = CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/DataBoard.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -std=c++20
+  INCLUDES = -I/Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/oop1_project_pacman_yehuda_keller.dir
+  OBJECT_FILE_DIR = CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src
+
+build CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/Demon.cpp.o: CXX_COMPILER__oop1_project_pacman_yehuda_keller_Debug /Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/src/Demon.cpp || cmake_object_order_depends_target_oop1_project_pacman_yehuda_keller
+  DEP_FILE = CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/Demon.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -std=c++20
+  INCLUDES = -I/Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/oop1_project_pacman_yehuda_keller.dir
+  OBJECT_FILE_DIR = CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src
+
+build CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/Door.cpp.o: CXX_COMPILER__oop1_project_pacman_yehuda_keller_Debug /Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/src/Door.cpp || cmake_object_order_depends_target_oop1_project_pacman_yehuda_keller
+  DEP_FILE = CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/Door.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -std=c++20
+  INCLUDES = -I/Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/oop1_project_pacman_yehuda_keller.dir
+  OBJECT_FILE_DIR = CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src
+
+build CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/EventHandler.cpp.o: CXX_COMPILER__oop1_project_pacman_yehuda_keller_Debug /Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/src/EventHandler.cpp || cmake_object_order_depends_target_oop1_project_pacman_yehuda_keller
+  DEP_FILE = CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/EventHandler.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -std=c++20
+  INCLUDES = -I/Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/oop1_project_pacman_yehuda_keller.dir
+  OBJECT_FILE_DIR = CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src
+
+build CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/GameBoard.cpp.o: CXX_COMPILER__oop1_project_pacman_yehuda_keller_Debug /Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/src/GameBoard.cpp || cmake_object_order_depends_target_oop1_project_pacman_yehuda_keller
+  DEP_FILE = CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/GameBoard.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -std=c++20
+  INCLUDES = -I/Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/oop1_project_pacman_yehuda_keller.dir
+  OBJECT_FILE_DIR = CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src
+
+build CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/GameController.cpp.o: CXX_COMPILER__oop1_project_pacman_yehuda_keller_Debug /Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/src/GameController.cpp || cmake_object_order_depends_target_oop1_project_pacman_yehuda_keller
+  DEP_FILE = CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/GameController.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -std=c++20
+  INCLUDES = -I/Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/oop1_project_pacman_yehuda_keller.dir
+  OBJECT_FILE_DIR = CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src
+
+build CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/GameObject.cpp.o: CXX_COMPILER__oop1_project_pacman_yehuda_keller_Debug /Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/src/GameObject.cpp || cmake_object_order_depends_target_oop1_project_pacman_yehuda_keller
+  DEP_FILE = CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/GameObject.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -std=c++20
+  INCLUDES = -I/Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/oop1_project_pacman_yehuda_keller.dir
+  OBJECT_FILE_DIR = CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src
+
+build CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/GameResources.cpp.o: CXX_COMPILER__oop1_project_pacman_yehuda_keller_Debug /Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/src/GameResources.cpp || cmake_object_order_depends_target_oop1_project_pacman_yehuda_keller
+  DEP_FILE = CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/GameResources.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -std=c++20
+  INCLUDES = -I/Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/oop1_project_pacman_yehuda_keller.dir
+  OBJECT_FILE_DIR = CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src
+
+build CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/Gift.cpp.o: CXX_COMPILER__oop1_project_pacman_yehuda_keller_Debug /Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/src/Gift.cpp || cmake_object_order_depends_target_oop1_project_pacman_yehuda_keller
+  DEP_FILE = CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/Gift.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -std=c++20
+  INCLUDES = -I/Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/oop1_project_pacman_yehuda_keller.dir
+  OBJECT_FILE_DIR = CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src
+
+build CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/Key.cpp.o: CXX_COMPILER__oop1_project_pacman_yehuda_keller_Debug /Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/src/Key.cpp || cmake_object_order_depends_target_oop1_project_pacman_yehuda_keller
+  DEP_FILE = CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/Key.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -std=c++20
+  INCLUDES = -I/Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/oop1_project_pacman_yehuda_keller.dir
+  OBJECT_FILE_DIR = CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src
+
+build CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/Menu.cpp.o: CXX_COMPILER__oop1_project_pacman_yehuda_keller_Debug /Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/src/Menu.cpp || cmake_object_order_depends_target_oop1_project_pacman_yehuda_keller
+  DEP_FILE = CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/Menu.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -std=c++20
+  INCLUDES = -I/Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/oop1_project_pacman_yehuda_keller.dir
+  OBJECT_FILE_DIR = CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src
+
+build CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/MovingObject.cpp.o: CXX_COMPILER__oop1_project_pacman_yehuda_keller_Debug /Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/src/MovingObject.cpp || cmake_object_order_depends_target_oop1_project_pacman_yehuda_keller
+  DEP_FILE = CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/MovingObject.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -std=c++20
+  INCLUDES = -I/Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/oop1_project_pacman_yehuda_keller.dir
+  OBJECT_FILE_DIR = CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src
+
+build CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/Player.cpp.o: CXX_COMPILER__oop1_project_pacman_yehuda_keller_Debug /Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/src/Player.cpp || cmake_object_order_depends_target_oop1_project_pacman_yehuda_keller
+  DEP_FILE = CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/Player.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -std=c++20
+  INCLUDES = -I/Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/oop1_project_pacman_yehuda_keller.dir
+  OBJECT_FILE_DIR = CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src
+
+build CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/RandomDemon.cpp.o: CXX_COMPILER__oop1_project_pacman_yehuda_keller_Debug /Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/src/RandomDemon.cpp || cmake_object_order_depends_target_oop1_project_pacman_yehuda_keller
+  DEP_FILE = CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/RandomDemon.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -std=c++20
+  INCLUDES = -I/Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/oop1_project_pacman_yehuda_keller.dir
+  OBJECT_FILE_DIR = CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src
+
+build CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/RegularState.cpp.o: CXX_COMPILER__oop1_project_pacman_yehuda_keller_Debug /Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/src/RegularState.cpp || cmake_object_order_depends_target_oop1_project_pacman_yehuda_keller
+  DEP_FILE = CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/RegularState.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -std=c++20
+  INCLUDES = -I/Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/oop1_project_pacman_yehuda_keller.dir
+  OBJECT_FILE_DIR = CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src
+
+build CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/SmartDemon.cpp.o: CXX_COMPILER__oop1_project_pacman_yehuda_keller_Debug /Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/src/SmartDemon.cpp || cmake_object_order_depends_target_oop1_project_pacman_yehuda_keller
+  DEP_FILE = CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/SmartDemon.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -std=c++20
+  INCLUDES = -I/Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/oop1_project_pacman_yehuda_keller.dir
+  OBJECT_FILE_DIR = CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src
+
+build CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/SuperState.cpp.o: CXX_COMPILER__oop1_project_pacman_yehuda_keller_Debug /Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/src/SuperState.cpp || cmake_object_order_depends_target_oop1_project_pacman_yehuda_keller
+  DEP_FILE = CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/SuperState.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -std=c++20
+  INCLUDES = -I/Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/oop1_project_pacman_yehuda_keller.dir
+  OBJECT_FILE_DIR = CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src
+
+build CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/TimeManger.cpp.o: CXX_COMPILER__oop1_project_pacman_yehuda_keller_Debug /Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/src/TimeManger.cpp || cmake_object_order_depends_target_oop1_project_pacman_yehuda_keller
+  DEP_FILE = CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/TimeManger.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -std=c++20
+  INCLUDES = -I/Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/oop1_project_pacman_yehuda_keller.dir
+  OBJECT_FILE_DIR = CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src
+
+build CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/Wall.cpp.o: CXX_COMPILER__oop1_project_pacman_yehuda_keller_Debug /Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/src/Wall.cpp || cmake_object_order_depends_target_oop1_project_pacman_yehuda_keller
+  DEP_FILE = CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/Wall.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -std=c++20
+  INCLUDES = -I/Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/oop1_project_pacman_yehuda_keller.dir
+  OBJECT_FILE_DIR = CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src
+
+build CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/helpButton.cpp.o: CXX_COMPILER__oop1_project_pacman_yehuda_keller_Debug /Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/src/helpButton.cpp || cmake_object_order_depends_target_oop1_project_pacman_yehuda_keller
+  DEP_FILE = CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/helpButton.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -std=c++20
+  INCLUDES = -I/Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/oop1_project_pacman_yehuda_keller.dir
+  OBJECT_FILE_DIR = CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src
+
+build CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/main.cpp.o: CXX_COMPILER__oop1_project_pacman_yehuda_keller_Debug /Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/src/main.cpp || cmake_object_order_depends_target_oop1_project_pacman_yehuda_keller
+  DEP_FILE = CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -std=c++20
+  INCLUDES = -I/Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/oop1_project_pacman_yehuda_keller.dir
+  OBJECT_FILE_DIR = CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target oop1_project_pacman_yehuda_keller
+
+
+#############################################
+# Link the executable oop1_project_pacman_yehuda_keller.app/Contents/MacOS/oop1_project_pacman_yehuda_keller
+
+build oop1_project_pacman_yehuda_keller.app/Contents/MacOS/oop1_project_pacman_yehuda_keller: CXX_EXECUTABLE_LINKER__oop1_project_pacman_yehuda_keller_Debug CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/Board.cpp.o CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/Cookie.cpp.o CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/DataBoard.cpp.o CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/Demon.cpp.o CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/Door.cpp.o CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/EventHandler.cpp.o CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/GameBoard.cpp.o CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/GameController.cpp.o CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/GameObject.cpp.o CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/GameResources.cpp.o CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/Gift.cpp.o CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/Key.cpp.o CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/Menu.cpp.o CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/MovingObject.cpp.o CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/Player.cpp.o CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/RandomDemon.cpp.o CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/RegularState.cpp.o CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/SmartDemon.cpp.o CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/SuperState.cpp.o CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/TimeManger.cpp.o CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/Wall.cpp.o CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/helpButton.cpp.o CMakeFiles/oop1_project_pacman_yehuda_keller.dir/src/main.cpp.o | /opt/homebrew/lib/libsfml-graphics.2.6.0.dylib /opt/homebrew/lib/libsfml-audio.2.6.0.dylib /opt/homebrew/lib/libsfml-window.2.6.0.dylib /opt/homebrew/lib/libsfml-system.2.6.0.dylib
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk
+  LINK_LIBRARIES = -Wl,-rpath,/opt/homebrew/lib  /opt/homebrew/lib/libsfml-graphics.2.6.0.dylib  /opt/homebrew/lib/libsfml-audio.2.6.0.dylib  /opt/homebrew/lib/libsfml-window.2.6.0.dylib  /opt/homebrew/lib/libsfml-system.2.6.0.dylib
+  OBJECT_DIR = CMakeFiles/oop1_project_pacman_yehuda_keller.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = oop1_project_pacman_yehuda_keller.app/Contents/MacOS/oop1_project_pacman_yehuda_keller
+  TARGET_PDB = oop1_project_pacman_yehuda_keller.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller -B/Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build include/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/cmake-build-debug/include && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build include/edit_cache: phony include/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build include/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/cmake-build-debug/include && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller -B/Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build include/rebuild_cache: phony include/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build src/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/cmake-build-debug/src && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build src/edit_cache: phony src/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build src/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/cmake-build-debug/src && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller -B/Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build src/rebuild_cache: phony src/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build resources/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/cmake-build-debug/resources && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build resources/edit_cache: phony resources/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build resources/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/cmake-build-debug/resources && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller -B/Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build resources/rebuild_cache: phony resources/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+build oop1_project_pacman_yehuda_keller: phony oop1_project_pacman_yehuda_keller.app/Contents/MacOS/oop1_project_pacman_yehuda_keller
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/cmake-build-debug
+
+build all: phony oop1_project_pacman_yehuda_keller.app/Contents/MacOS/oop1_project_pacman_yehuda_keller include/all src/all resources/all
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/cmake-build-debug/include
+
+build include/all: phony
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/cmake-build-debug/resources
+
+build resources/all: phony
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/cmake-build-debug/src
+
+build src/all: phony
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Phony target to force glob verification run.
+
+build /Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/cmake-build-debug/CMakeFiles/VerifyGlobs.cmake_force: phony
+
+
+#############################################
+# Re-run CMake to check if globbed directories changed.
+
+build /Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/cmake-build-debug/CMakeFiles/cmake.verify_globs: VERIFY_GLOBS | /Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/cmake-build-debug/CMakeFiles/VerifyGlobs.cmake_force
+  pool = console
+  restat = 1
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE /Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/cmake-build-debug/CMakeFiles/cmake.verify_globs | ../CMakeLists.txt ../include/CMakeLists.txt ../resources/Arial.ttf ../resources/CMakeLists.txt ../resources/GameLevelsTxT.txt ../resources/GameOver.png ../resources/Life.png ../resources/MenuBackground.png ../resources/NextLevel.png ../resources/NextLevel.wav ../resources/backButton.png ../resources/backToMenu.png ../resources/cookie.png ../resources/door.png ../resources/door.wav ../resources/endGame.png ../resources/exitButton.png ../resources/exitFromLevel.png ../resources/freeze.png ../resources/freezeTime.wav ../resources/ghost.png ../resources/gift.png ../resources/help.png ../resources/helpButton.png ../resources/key.png ../resources/key.wav ../resources/menuBackground.wav ../resources/musicButton.png ../resources/pacman.png ../resources/pacmanBackground.png ../resources/pacmanEatingCookie.wav ../resources/pacmanEmoji.png ../resources/pacmanGameOver.wav ../resources/pacmanGetingLife.wav ../resources/pacmanMove.wav ../resources/pacmanOpening.wav ../resources/pacmanTitle.png ../resources/playButton.png ../resources/playerColideWithDemon.wav ../resources/restartButtun.png ../resources/smartDemon.png ../resources/superColideWithDemon.wav ../resources/superColideWithDoor.wav ../resources/superGift.wav ../resources/superPacman.png ../resources/time.png ../resources/timeGift.wav ../resources/wall.png ../resources/wall.wav ../src/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/MacOSXBundleInfo.plist.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake /Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/cmake-build-debug/CMakeFiles/VerifyGlobs.cmake /opt/homebrew/lib/cmake/SFML/SFMLConfig.cmake /opt/homebrew/lib/cmake/SFML/SFMLConfigDependencies.cmake /opt/homebrew/lib/cmake/SFML/SFMLConfigVersion.cmake /opt/homebrew/lib/cmake/SFML/SFMLSharedTargets-release.cmake /opt/homebrew/lib/cmake/SFML/SFMLSharedTargets.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build ../CMakeLists.txt ../include/CMakeLists.txt ../resources/Arial.ttf ../resources/CMakeLists.txt ../resources/GameLevelsTxT.txt ../resources/GameOver.png ../resources/Life.png ../resources/MenuBackground.png ../resources/NextLevel.png ../resources/NextLevel.wav ../resources/backButton.png ../resources/backToMenu.png ../resources/cookie.png ../resources/door.png ../resources/door.wav ../resources/endGame.png ../resources/exitButton.png ../resources/exitFromLevel.png ../resources/freeze.png ../resources/freezeTime.wav ../resources/ghost.png ../resources/gift.png ../resources/help.png ../resources/helpButton.png ../resources/key.png ../resources/key.wav ../resources/menuBackground.wav ../resources/musicButton.png ../resources/pacman.png ../resources/pacmanBackground.png ../resources/pacmanEatingCookie.wav ../resources/pacmanEmoji.png ../resources/pacmanGameOver.wav ../resources/pacmanGetingLife.wav ../resources/pacmanMove.wav ../resources/pacmanOpening.wav ../resources/pacmanTitle.png ../resources/playButton.png ../resources/playerColideWithDemon.wav ../resources/restartButtun.png ../resources/smartDemon.png ../resources/superColideWithDemon.wav ../resources/superColideWithDoor.wav ../resources/superGift.wav ../resources/superPacman.png ../resources/time.png ../resources/timeGift.wav ../resources/wall.png ../resources/wall.wav ../src/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/MacOSXBundleInfo.plist.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake /Users/yehudakeller/Desktop/oop1/oop1_project_pacman_yehuda_keller/cmake-build-debug/CMakeFiles/VerifyGlobs.cmake /opt/homebrew/lib/cmake/SFML/SFMLConfig.cmake /opt/homebrew/lib/cmake/SFML/SFMLConfigDependencies.cmake /opt/homebrew/lib/cmake/SFML/SFMLConfigVersion.cmake /opt/homebrew/lib/cmake/SFML/SFMLSharedTargets-release.cmake /opt/homebrew/lib/cmake/SFML/SFMLSharedTargets.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all
