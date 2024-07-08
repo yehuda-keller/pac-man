@@ -2,6 +2,12 @@
 
 ## Introduction to Object-Oriented Programming and Software Engineering
 
+![Main Menu](resources/menu.png)
+![info](resources/info.png)
+![level 1](resources/level1.png)
+![level 2](resources/level2.png)
+
+
 ## General Explanation:
 
 In this exercise, we implemented the well-known and beloved Pacman game. The goal of the game is to progress through the levels and avoid the ghosts that try to prevent us from eating the cookies. We created three levels of varying difficulty and tried to incorporate as much gameplay as possible while utilizing the knowledge we gained in the course.
